@@ -99,6 +99,10 @@
         "luminosity" : 1, 
         "DAS Name" : "SingleElectron/Run2017F-31Mar2018-v1/MINIAOD"
     },
+    "AllData" : {
+        "luminosity" : 1, 
+        "DAS Name" : "Includes all previous"
+    },
     "DataEWKCorrected" : {
         "luminosity" : 1, 
         "DAS Name" : "Includes all previous"
