@@ -203,7 +203,22 @@
         "Source of cross section" : "MCM",
         "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
     },
-    "ttZJets" : { 
+    "ZZZ" : { 
+        "cross_section" : 0.01398,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    },
+    "WZZ" : { 
+        "cross_section" : 0.05565,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    },
+    "WWZ" : { 
+        "cross_section" : 0.1651,
+        "Source of cross section" : "MCM",
+        "DAS Name" : "ZZZJetsTo4L2Nu_4f_TuneCP5_13TeV_amcatnloFXFX_pythia8"
+    },
+    "ttZ-jets" : { 
         "cross_section" : 0.2529,
         "Source of cross section" : "MCM",
         "DAS Name" : "ttZJets_TuneCP5_13TeV_madgraphMLM_pythia8"

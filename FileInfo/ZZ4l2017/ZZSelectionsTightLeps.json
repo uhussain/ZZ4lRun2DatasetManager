@@ -202,5 +202,13 @@
     "ZHToZZ_4L" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2019-08-18/LooseLeptons/2019-08-15-ZHToZZ_4L-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "HZZ-signal"
+    },
+    "AllData" : {
+        "file_path" : "",
+        "plot_group" : "data_all"
+    },
+    "DataEWKCorrected" : {
+        "file_path" : "",
+        "plot_group" : "nonprompt"
     }
 }

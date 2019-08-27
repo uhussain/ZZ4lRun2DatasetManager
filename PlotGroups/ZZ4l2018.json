@@ -31,8 +31,7 @@
             "ggZZ4m",
             "ggZZ4t",
             "ggZZ2e2mu",
-            "ggZZ2e2tau",
-            "ggZZ2mu2tau"
+            "ggZZ2e2tau"
         ]
     },
     "dy-jets" : {
@@ -63,10 +62,10 @@
         "Style" : "fill-yellow",
         "add_perc_error" : 0.0,
         "Members" : [
-            "ZZGJetsTo4L2Nu",
-            "ZZZJetsTo4L2Nu",
-            "WZZJetsTo4L2Nu",
-            "WWZJetsTo4L2Nu"
+            "ZZZ",
+            "WZZ",
+            "WWZ",
+            "ttZ-jets"
         ]
     },
     "nonprompt" : {
