@@ -67,6 +67,10 @@
         "file_path" : "/store/user/uhussain/UWVVNtuplesZL18_19Aug2019/WZTo3LNu_TuneCP5_13TeV-powheg-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15_ext1-v2/*/*/*.root",
         "plot_group" : "wz3lnu-powheg"
     },
+    "wz3lnu-mg5amcnlo" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesZL18_19Aug2019/WZTo3LNu_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15_ext1-v2/*/*/*.root",
+        "plot_group" : "wz3lnu-amcnlo"
+    },
     "zz4l-powheg" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesZL18_19Aug2019/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15_ext2-v2/*/*/*.root",
         "plot_group" : "qqZZ-powheg"
@@ -101,10 +105,6 @@
     },
     "ggZZ2e2tau" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesZL18_19Aug2019/GluGluToContinToZZTo2e2tau_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v3/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ2mu2tau" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuplesZL18_19Aug2019/GluGluToContinToZZTo2mu2tau_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v3/*/*/*.root",
         "plot_group" : "ggZZ"
     }
 }
