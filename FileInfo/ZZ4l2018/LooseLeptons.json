@@ -158,5 +158,25 @@
     "ZHToZZ_4L" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZHToZZ_4L-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "HZZ-signal"
+    },
+    "ZZJJTo4L-EWK" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZZJJTo4L-EWK-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "zzjj4l-ewk"
+    },
+    "ZZJJTo4L-QCD" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZZJJTo4L-QCD-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "zzjj4l-qcd"
+    },
+    "ZZJJTo2e2mu-EWK-phantom" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZZJJTo2e2mu-EWK-phantom-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "zzjj4l-ewk"
+    },
+    "ZZJJTo4e-EWK-phantom" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZZJJTo4e-EWK-phantom-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "zzjj4l-ewk"
+    },
+    "ZZJJTo4mu-EWK-phantom" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2018AnalysisJobs_2019-08-27/LooseLeptons/2019-08-26-ZZJJTo4mu-EWK-phantom-ZZ4l2018-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "zzjj4l-ewk"
     }
 }
