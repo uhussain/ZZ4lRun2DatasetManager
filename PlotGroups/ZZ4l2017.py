@@ -1,4 +1,4 @@
-{
+info = {
     "qqZZ-powheg" : {
         "Name" : "qq/gq #rightarrow ZZ(+jets)",
         "Style" : "fill-lightblue",
@@ -147,3 +147,9 @@
         ]
     }
 }
+
+tmpinfo = {}
+for key, value in info.iteritems():
+    tmpinfo.update({key.replace("-", "_") : value})
+
+info.update(tmpinfo)

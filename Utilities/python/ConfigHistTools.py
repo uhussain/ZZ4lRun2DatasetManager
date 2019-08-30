@@ -3,6 +3,7 @@ import json
 import imp
 import glob
 import copy
+import logging
 
 def readPythonOrJson(file_path):
     if ".pyc" in file_path[-4:] or ".jsonc" in file_path[-6:]:
@@ -19,6 +20,7 @@ def readPythonOrJson(file_path):
 def readAllInfo(file_path):
     info = {}
     for info_file in glob.glob(file_path):
+        logging.debug("Trying to read info from %s" % info_file)
         file_info = readInfo(info_file)
         if file_info:
             info.update(file_info)
