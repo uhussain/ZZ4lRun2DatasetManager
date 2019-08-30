@@ -109,9 +109,7 @@
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Number of p_{T} > 30 GeV Jets",  
-            "GetYaxis().SetTitle": "Events",
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 7000
+            "GetYaxis().SetTitle": "Events"
         }
     },
    "jetEta[0]": {  
@@ -124,9 +122,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet #eta",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 2000
+            "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "jetPt[0]": {  
@@ -139,9 +135,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Leading jet p_{T}",  
             "GetYaxis().SetTitle": "Events / 40 GeV",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 4500
+            "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "jetEta[1]": {  
@@ -154,9 +148,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet #eta",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 1000
+            "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "jetPt[1]": {  
@@ -169,9 +161,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Sub-leading jet p_{T}",  
             "GetYaxis().SetTitle": "Events / 15 GeV",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 1500
+            "GetYaxis().SetTitleOffset": 1.2
         }
     },
    "mjj": {  
@@ -184,9 +174,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "Di-jet Mass [GeV]",  
             "GetYaxis().SetTitle": "Events / 100 GeV",
-            "GetYaxis().SetTitleOffset": 1.1,
-            "SetMinimum" : 0.001,
-            "SetMaximum": 1000
+            "GetYaxis().SetTitleOffset": 1.1
         }
     },
    "dEtajj": {  
@@ -199,9 +187,7 @@
         "Attributes": {  
             "GetXaxis().SetTitle": "#Delta#eta(j_{1}, j_{2})",  
             "GetYaxis().SetTitle": "Events",
-            "GetYaxis().SetTitleOffset": 1.2,
-            "SetMinimum" : 0.001,
-            "SetMaximum" : 1000
+            "GetYaxis().SetTitleOffset": 1.2
         }
     }
 }
