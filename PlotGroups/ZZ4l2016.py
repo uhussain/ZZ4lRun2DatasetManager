@@ -1,4 +1,4 @@
-{
+info = {
     "qqZZ-powheg" : {
         "Name" : "qq/gq #rightarrow ZZ(+jets)",
         "Style" : "fill-lightblue",
@@ -74,7 +74,9 @@
         "Style" : "fill-green",
         "add_perc_error" : 0.3,
         "Members" : [
-            "DataEWKCorrected"
+            #"DataEWKCorrected"
+            "DYJetsToLLM-50"
+
         ]
     },
     "data" : {
