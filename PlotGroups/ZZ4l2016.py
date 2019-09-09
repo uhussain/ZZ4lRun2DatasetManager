@@ -1,4 +1,4 @@
-{
+info = {
     "qqZZ-powheg" : {
         "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
         "Style" : "fill-lightblue",
@@ -84,7 +84,9 @@
         "Style" : "fill-green",
         "add_perc_error" : 0.3,
         "Members" : [
-            "DataEWKCorrected"
+            #"DataEWKCorrected"
+            "DYJetsToLLM-50"
+
         ]
     },
     "data" : {
@@ -100,60 +102,11 @@
         "Members" : [
             "AllData"
         ]
-    },
-    "data_B" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017B-31Mar2018-v1",
-            "data_DoubleMuon_Run2017B-31Mar2018-v1",
-            "data_MuonEG_Run2017B-31Mar2018-v1",  
-            "data_SingleMuon_Run2017B-31Mar2018-v1",
-            "data_SingleElectron_Run2017B-31Mar2018-v1"
-        ]
-    },
-    "data_C" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017C-31Mar2018-v1",
-            "data_DoubleMuon_Run2017C-31Mar2018-v1",
-            "data_MuonEG_Run2017C-31Mar2018-v1",  
-            "data_SingleMuon_Run2017C-31Mar2018-v1",
-            "data_SingleElectron_Run2017C-31Mar2018-v1"
-        ]
-    },
-    "data_D" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017D-31Mar2018-v1",
-            "data_DoubleMuon_Run2017D-31Mar2018-v1",
-            "data_MuonEG_Run2017D-31Mar2018-v1",  
-            "data_SingleMuon_Run2017D-31Mar2018-v1",
-            "data_SingleElectron_Run2017D-31Mar2018-v1"
-        ]
-    },
-    "data_E" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017E-31Mar2018-v1",
-            "data_DoubleMuon_Run2017E-31Mar2018-v1",
-            "data_MuonEG_Run2017E-31Mar2018-v1",  
-            "data_SingleMuon_Run2017E-31Mar2018-v1",
-            "data_SingleElectron_Run2017E-31Mar2018-v1"
-        ]
-    },
-    "data_F" : {
-        "Name" : "Data",
-        "Style" : "data",
-        "Members" : [
-            "data_DoubleEG_Run2017F-31Mar2018-v1",
-            "data_DoubleMuon_Run2017F-31Mar2018-v1",
-            "data_MuonEG_Run2017F-31Mar2018-v1",  
-            "data_SingleMuon_Run2017F-31Mar2018-v1",
-            "data_SingleElectron_Run2017F-31Mar2018-v1"
-        ]
     }
 }
+
+tmpinfo = {}
+for key, value in info.iteritems():
+    tmpinfo.update({key.replace("-", "_") : value})
+
+info.update(tmpinfo)

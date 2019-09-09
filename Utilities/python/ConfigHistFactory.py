@@ -1,10 +1,11 @@
 import ROOT
 import math
-import UserInput
+import ConfigHistTools
 import config_object
 import logging
 import os
 import glob
+import ConfigHistTools
 
 class ConfigHistFactory(object):
     def __init__(self, dataset_manager_path, dataset_name, object_restrict=""):
@@ -12,28 +13,29 @@ class ConfigHistFactory(object):
         self.dataset_name = dataset_name
         self.info = self.readAllInSet("FileInfo", self.dataset_name)
         self.config = config_object.ConfigObject(self.info)
-        self.mc_info = UserInput.readAllJson('/'.join([self.manager_path, "FileInfo", "montecarlo/*.json"]))
-        self.data_info = UserInput.readAllJson('/'.join([self.manager_path, "FileInfo", "data/*.json"]))
-        self.styles = UserInput.readJson('/'.join([self.manager_path, 
+        self.mc_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "montecarlo/*"]))
+        self.data_info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, "FileInfo", "data/*"]))
+        self.styles = ConfigHistTools.readInfo('/'.join([self.manager_path, 
             "Styles", "styles.json"]))
         base_name = self.dataset_name.split("/")[0]
         self.plot_groups = self.readAllInSet("PlotGroups", base_name)
         object_file = '/'.join([self.manager_path,  "PlotObjects", 
             ("_".join([self.dataset_name, object_restrict])
-                if object_restrict != "" else self.dataset_name) + ".json"])
-        self.aliases = UserInput.readJson('/'.join([self.manager_path, 
-            "Aliases", "%s.json" % base_name]))
+                if object_restrict != "" else self.dataset_name) + ".py"])
+        alias_file = '/'.join([self.manager_path, "Aliases", "%s.json" % base_name])
+        self.aliases = ConfigHistTools.readInfo(alias_file) if os.path.isfile(alias_file) else {}
         # Objects can be defined by the default dataset-wide file, 
         # or by specific selection files
-        if not os.path.isfile(object_file): object_file = object_file.replace(
-                 self.dataset_name, base_name)
-        self.plot_objects = UserInput.readJson(object_file)
+        if not os.path.isfile(object_file): 
+            object_file = object_file.replace("py", "json")
+        if not os.path.isfile(object_file): 
+            #TODO: This is some dumb logic
+            object_file = object_file.replace("json", "py")
+            object_file = object_file.replace(self.dataset_name, base_name)
+        self.plot_objects = ConfigHistTools.readInfo(object_file)
     def readAllInSet(self, object_type, base_name):
-        info = UserInput.readJson('/'.join([self.manager_path, 
-                object_type, "%s.json" % base_name]))
-        for file_name in glob.glob('/'.join([self.manager_path, 
-                object_type, "%s_*.json" % base_name])):
-            info.update(UserInput.readJson(file_name))
+        info = ConfigHistTools.readAllInfo('/'.join([self.manager_path, 
+                object_type, "%s*" % base_name]))
         return info
     def getHist2DWeightDrawExpr(self, object_name, dataset_name, channel, bins):
         draw_expr = self.getHistDrawExpr(object_name, dataset_name, channel)
@@ -116,7 +118,7 @@ class ConfigHistFactory(object):
         if plot_group in self.plot_groups.keys():
             return self.plot_groups[plot_group]["Members"]
         else:
-            raise ValueError("%s is not a valid PlotGroup" % plot_group)
+            raise ValueError("%s is not a valid PlotGroup. Must be defined in %s" % (plot_group, self.manager_path))
     def getFileInfo(self):
         return self.info
     def getDataInfo(self):
@@ -126,9 +128,9 @@ class ConfigHistFactory(object):
     def getListOfPlotObjects(self):
         return self.plot_objects.keys()
 def main():
-    test = ConfigHistFactory("/afs/cern.ch/user/u/uhussain/work/ZZ4lRun2DatasetManager",
-        "ZZ4l2018", "LooseLeptons")
-    draw_expr = test.getHistDrawExpr("l1Pt", "zz4l-powheg", "eeee")
+    test = ConfigHistFactory("/afs/cern.ch/user/k/kelong/work/AnalysisDatasetManager",
+        "WZAnalysis", "Zselection")
+    draw_expr = test.getHistDrawExpr("l1Pt", "wz3lnu-powheg", "eee")
     hist_name = draw_expr.split(">>")[1].split("(")[0]
 
 if __name__ == "__main__":
