@@ -66,12 +66,12 @@ def getDefaultParser():
                         help="Don't add CMS plot decorations")
     parser.add_argument("--logy", action='store_true',
                         help="Use logaritmic scale on Y-axis")
-    parser.add_argument("-c", "--channels", type=str, default="eee,mmm,eem,emm",
+    parser.add_argument("-c", "--channels", type=str, default="eeee,eemm,mmee,mmmm",
                         help="List (separate by commas) of channels to plot") 
     parser.add_argument("--no_scalefactors", action='store_true',
                         help="No scale factors")
     parser.add_argument("-f", "--files_to_plot", type=str, required=False,
-                        default="WZxsec2016", help="Files to make plots from, "
+                        default="ZZ4l2018", help="Files to make plots from, "
                         "separated by a comma (match name in file_info.json)")
     parser.add_argument("-a", "--append_to_name", type=str, default="",
                         help="Name plot as <branch_name>_<append_to_name>")
@@ -82,7 +82,7 @@ def getDefaultParser():
     return parser 
 def getListOfFiles(file_set, selection):
     file_set = file_set.lower()
-    if "wzxsec2016" in file_set:
+    if "zz4l2018" in file_set:
         filelist = []
         if "nonprompt" in file_set:
             filelist.append("nonprompt")
