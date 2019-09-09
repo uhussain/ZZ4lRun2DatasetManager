@@ -1,4 +1,60 @@
 {
+    "zz4l-amcatnlo" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2/*/*/*.root",
+        "plot_group" : "qqZZ-amcnlo"
+    },
+    "zz4l-powheg" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_13TeV_powheg_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
+        "plot_group" : "qqZZ-powheg"
+    },
+    "ggZZ4e" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggZZ4m" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo4mu_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggZZ4t" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo4tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggZZ2e2mu" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo2e2mu_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggZZ2e2tau" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo2e2tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggZZ2mu2tau" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo2mu2tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "ggZZ"
+    },
+    "ggHZZ" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
+    "ttH_HToZZ_4L" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ttH_HToZZ_4LFilter_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
+    "WminusHToZZ" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
+    "WplusHToZZ" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
+    "ZHToZZ_4L" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
+    "vbfHZZ" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
+        "plot_group" : "HZZ-signal"
+    },
     "WZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
         "plot_group" : "VVV"
@@ -19,14 +75,6 @@
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/WZTo3LNu_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
         "plot_group" : "wz3lnu-amcnlo"
     },
-    "zz4l-amcatnlo" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2/*/*/*.root",
-        "plot_group" : "qqZZ-amcnlo"
-    },
-    "zz4l-powheg" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZZTo4L_13TeV_powheg_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "qqZZ-powheg"
-    },
     "tt-jets" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
          "plot_group" : "top"
@@ -42,54 +90,6 @@
     "DYJetsToLLM-50" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_09Aug2019/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext2-v1/*/*/*.root",
         "plot_group" : "dy-jets" 
-    },
-    "ggZZ4e" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ4m" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo4mu_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ4t" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo4tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ2e2mu" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo2e2mu_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ2e2tau" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo2e2tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggZZ2mu2tau" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/GluGluToContinToZZTo2mu2tau_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "ggZZ"
-    },
-    "ggHZZ" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
-    },
-    "ttH_HToZZ_4L" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ttH_HToZZ_4LFilter_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
-    },
-    "WminusHToZZ" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
-    },
-    "WplusHToZZ" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
-    },
-    "ZHToZZ_4L" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
-    },
-    "vbfHZZ" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
     },
     "ZZJJTo4L-EWK" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZZJJTo4L_EWK_13TeV-madgraph-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
