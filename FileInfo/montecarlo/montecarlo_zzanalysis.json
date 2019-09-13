@@ -21,8 +21,8 @@
         "Source of k-factor" : "k factor from mll only calculation of Grazzini",
         "DAS Name" : "ZZTo4L_13TeV_powheg_pythia8"
     },
-    "zz4l-mg5amcnlo" : {
-        "cross_section" : 1.191,
+    "zz4l-amcatnlo" : {
+        "cross_section" : 1.256,
         "Source of cross section" : "McM",
         "DAS Name" : "ZZTo4L_13TeV-amcatnloFXFX-pythia8",
         "Generator" : "MadGraph5_aMC@NLO NLO FxFx 0,1j",
@@ -272,6 +272,270 @@
         "cross_section" : 0.000668,
         "Source of cross section" : "AN2017_342_V9",
         "DAS Name" : "ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV709_pythia8"
+    },
+    "zz4l-sherpa" : {
+        "cross_section" : 0.455985,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_1" : {
+        "cross_section" : 4.614e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_2" : {
+        "cross_section" : 4.628e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_3" : {
+        "cross_section" : 4.616e-01,   
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_4" : {
+        "cross_section" : 4.634e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_5" : {
+        "cross_section" : 4.628e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_6" : {
+        "cross_section" :  4.634e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_7" : {
+        "cross_section" : 4.630e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_8" : {
+        "cross_section" : 4.628e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_9" : {
+        "cross_section" : 4.636e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_10" : {
+        "cross_section" : 4.647e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_11" : {
+        "cross_section" : 4.623e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_12" : {
+        "cross_section" : 4.635e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_13" : {
+        "cross_section" : 4.624e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_14" : {
+        "cross_section" : 4.613e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_15" : {
+        "cross_section" : 4.622e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_16" : {
+        "cross_section" : 4.623e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_17" : {
+        "cross_section" : 4.623e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_18" : {
+        "cross_section" : 4.611e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_19" : {
+        "cross_section" : 4.606e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_20" : {
+        "cross_section" : 4.632e-01,
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_21" : {
+        "cross_section" : 4.634e-01, 
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_22" : {
+        "cross_section" : 4.637e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_23" : {
+        "cross_section" : 4.634e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_24" : {
+        "cross_section" : 4.620e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_25" : {
+        "cross_section" : 4.624e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_26" : {
+        "cross_section" : 4.620e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_27" : {
+        "cross_section" : 4.591e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_28" : {
+        "cross_section" : 4.618e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_29" : {
+        "cross_section" : 4.620e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_30" : {
+        "cross_section" : 4.623e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_31" : {
+        "cross_section" : 4.627e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_32" : {
+        "cross_section" : 4.628e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_33" : {
+        "cross_section" : 4.653e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_34" : {
+        "cross_section" : 4.622e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_35" : {
+        "cross_section" : 4.621e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_36" : {
+        "cross_section" : 4.634e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_37" : {
+        "cross_section" : 4.620e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_38" : {
+        "cross_section" : 4.621e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_39" : {
+        "cross_section" : 4.636e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_40" : {
+        "cross_section" : 4.644e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_41" : {
+        "cross_section" : 4.627e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_42" : {
+        "cross_section" : 4.626e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
+    },
+    "zz4l-atgc_43" : {
+        "cross_section" : 4.616e-01,  
+        "kfactor" : 1.239,
+        "Source of cross section" : "AN2017_342_V9",
+        "DAS Name" : "ZZ4l-Sherpa"
     },
     "2018SignalSync" : {
         "cross_section" : 1.0,
