@@ -8,7 +8,7 @@ info = {
         ]
     },
     "zzjj4l_ewk" : {
-        "Name" : "ZZ + 2 kets EWK",
+        "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [

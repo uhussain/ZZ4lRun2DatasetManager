@@ -7,8 +7,16 @@ info = {
             "zz4l-powheg"
         ]
     },
+    "qqZZ_sherpa" : {
+        "Name" : "q#bar{q} #rightarrow ZZ (SHERPA)",
+        "Style" : "fill-black",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-sherpa"
+        ]
+    },
     "zzjj4l_ewk" : {
-        "Name" : "ZZ + 2 kets EWK",
+        "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
         "add_perc_error" : 0.0,
         "Members" : [
