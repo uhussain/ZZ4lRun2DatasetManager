@@ -10,12 +10,38 @@
             "GetYaxis().SetTitle": "Events Passing Selection"
               }
     },
+   "L1Pt": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 1000
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "l_{1} p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "GenL1Pt": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 200,
+            "xmin": 0,
+            "xmax": 1000
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Gen l_{1} p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
    "LepPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 40,
+            "nbins": 400,
             "xmin": 0,
-            "xmax": 200
+            "xmax": 2000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
@@ -50,9 +76,9 @@
    "GenLepPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 40,
+            "nbins": 400,
             "xmin": 0,
-            "xmax": 200
+            "xmax": 2000
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Gen Lepton p_{T} [GeV]",  
@@ -76,7 +102,7 @@
    "dPhiZ1Z2": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 35,
+            "nbins": 14,
             "xmin": 0,
             "xmax": 3.5
         },
@@ -88,12 +114,12 @@
    "dRZ1Z2": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 6,
+            "nbins": 10,
             "xmin": 0,
-            "xmax": 6
+            "xmax": 10
         },
         "Attributes": {  
-            "GetXaxis().SetTitle": "#delta #phi_{Z1,Z2}",  
+            "GetXaxis().SetTitle": "#delta R_{Z1,Z2}",  
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -126,7 +152,7 @@
    "GendPhiZ1Z2": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 35,
+            "nbins": 14,
             "xmin": 0,
             "xmax": 3.5
         },
@@ -138,9 +164,9 @@
    "GendRZ1Z2": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 6,
+            "nbins": 10,
             "xmin": 0,
-            "xmax": 6
+            "xmax": 10
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "#delta R_{GenZ1,GenZ2}",  
@@ -176,9 +202,9 @@
    "Mass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 568,
+            "nbins": 1215,
             "xmin": 70,
-            "xmax": 1206
+            "xmax": 2500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "m_{4l} [GeV]",  
@@ -215,9 +241,9 @@
    "GenMass": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 568,
+            "nbins": 1215,
             "xmin": 70,
-            "xmax": 1206
+            "xmax": 2500
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Gen m_{4l} [GeV]",  
