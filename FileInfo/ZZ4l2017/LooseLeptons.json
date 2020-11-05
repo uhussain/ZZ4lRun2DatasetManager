@@ -1,11 +1,27 @@
 {
     "zz4l-amcatnlo" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2019-09-11/LooseLeptons/2019-09-11-zz4l-amcatnlo-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
-        "plot_group" : "qqZZ-amcnlo"
+        "plot_group" : "qqZZ_amcnlo"
     },
     "zz4l-powheg" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2019-09-11/LooseLeptons/2019-09-11-zz4l-powheg-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
         "plot_group" : "qqZZ_powheg"
+    },
+    "GGZZ4e" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2020-11-01/LooseLeptons/2020-11-01-GGZZ4e-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4m" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2020-11-01/LooseLeptons/2020-11-01-GGZZ4m-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4t" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2020-11-01/LooseLeptons/2020-11-01-GGZZ4t-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ2e2mu" : {
+        "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2020-11-01/LooseLeptons/2020-11-01-GGZZ2e2mu-ZZ4l2017-loosePreselectionTo4lmass-v1/*",
+        "plot_group" : "GGZZ"
     },
     "ggZZ4e" : {
         "file_path" : "/data/uhussain/ZZRun2SkimmedFiles/ZZ4l2017AnalysisJobs_2019-09-11/LooseLeptons/2019-09-11-ggZZ4e-ZZ4l2017-loosePreselectionTo4lmass-v1/*",

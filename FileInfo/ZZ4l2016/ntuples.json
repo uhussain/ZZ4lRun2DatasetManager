@@ -1,11 +1,27 @@
 {
     "zz4l-amcatnlo" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2/*/*/*.root",
-        "plot_group" : "qqZZ-amcnlo"
+        "plot_group" : "qqZZ_amcnlo"
     },
     "zz4l-powheg" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_13TeV_powheg_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "qqZZ-powheg"
+        "plot_group" : "qqZZ_powheg"
+    },
+    "GGZZ4e" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_24Oct2020/GluGluToHiggs0PMContinToZZTo4e_M125_GaSM_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4m" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_24Oct2020/GluGluToHiggs0PMContinToZZTo4mu_M125_GaSM_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4t" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_08Oct2020/GluGluToHiggs0PMContinToZZTo4tau_M125_GaSM_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ2e2mu" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_31Oct2020/GluGluToHiggs0PMContinToZZTo2e2mu_M125_GaSM_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v3/*/*/*.root",
+        "plot_group" : "GGZZ"
     },
     "ggZZ4e" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
@@ -33,27 +49,27 @@
     },
     "ggHZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/GluGluHToZZTo4L_M125_13TeV_powheg2_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "ttH_HToZZ_4L" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ttH_HToZZ_4LFilter_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "WminusHToZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "WplusHToZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "ZHToZZ_4L" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUgenV6_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "vbfHZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV709_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "WZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
@@ -93,7 +109,7 @@
     },
     "ZZJJTo4L-EWK" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZZJJTo4L_EWK_13TeV-madgraph-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "zzjj4l-ewk"
+        "plot_group" : "zzjj4l_ewk"
     },
     "ZZJJTo4L-QCD" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/ZZJJTo4L_QCD_13TeV-madgraph-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
@@ -101,191 +117,211 @@
     },
     "ZZJJTo2e2mu-EWK-phantom" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/VBFToHiggs0PMContinToZZTo2e2muJJ_M125_GaSM_13TeV_phantom_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "zzjj4l-ewk"
+        "plot_group" : "zzjj4l_ewk"
     },
     "ZZJJTo4e-EWK-phantom" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/VBFToHiggs0PMContinToZZTo4eJJ_M125_GaSM_13TeV_phantom_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "zzjj4l-ewk"
+        "plot_group" : "zzjj4l_ewk"
     },
     "ZZJJTo4mu-EWK-phantom" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/VBFToHiggs0PMContinToZZTo4muJJ_M125_GaSM_13TeV_phantom_pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "zzjj4l-ewk"
+        "plot_group" : "zzjj4l_ewk"
     },
     "zz4l-sherpa" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "qqZZ-sherpa"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "qqZZ_sherpa"
     },
     "zz4l-atgc_1" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0_fz_0p0015"
     },
     "zz4l-atgc_2" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0_fz_0p003"
     },
     "zz4l-atgc_3" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "f4_fg-0_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
+        "plot_group" : "f4_fg_0_fz_m0p0015"
     },
     "zz4l-atgc_4" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0_fz_m0p003"
     },
     "zz4l-atgc_5" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0019_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0019_fz_0p0015"
     },
     "zz4l-atgc_6" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0019_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0019_fz_0p003"
     },
     "zz4l-atgc_7" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0019_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0019_fz_m0p0015"
     },
     "zz4l-atgc_8" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0038_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0038_fz_0"
     },
     "zz4l-atgc_9" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0038_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0038_fz_0p0015"
     },
     "zz4l-atgc_10" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0038_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0038_fz_0p003"
     },
     "zz4l-atgc_11" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0038_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0038_fz_m0p0015"
     },
     "zz4l-atgc_12" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-0p0038_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0038_fz_m0p003"
     },
     "zz4l-atgc_13" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0019_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0019_fz_0"
     },
     "zz4l-atgc_14" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0019_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0019_fz_0p0015"
     },
     "zz4l-atgc_15" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0019_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0019_fz_0p003"
     },
     "zz4l-atgc_16" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0019_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0019_fz_m0p0015"
     },
     "zz4l-atgc_17" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0019_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0019_fz_m0p003"
     },
     "zz4l-atgc_18" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0038_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0038_fz_0"
     },
     "zz4l-atgc_19" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0038_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0038_fz_0p0015"
     },
     "zz4l-atgc_20" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0038_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0038_fz_0p003"
     },
     "zz4l-atgc_21" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0038_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0038_fz_m0p0015"
     },
     "zz4l-atgc_22" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f4_fg-m0p0038_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-m0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_m0p0038_fz_m0p003"
     },
     "zz4l-atgc_23" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0_fz_0p003"
     },
     "zz4l-atgc_24" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0_fz_m0p0015"
     },
     "zz4l-atgc_25" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0_fz_m0p003"
     },
     "zz4l-atgc_26" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0019_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0019_fz_0"
     },
     "zz4l-atgc_27" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0019_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0019_fz_0p0015"
     },
     "zz4l-atgc_28" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0019_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_v2_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0019_fz_0p003"
     },
     "zz4l-atgc_29" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0019_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0019_fz_m0p0015"
     },
     "zz4l-atgc_30" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0019_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0019_fz_m0p003"
     },
     "zz4l-atgc_31" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0038_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0038_fz_0"
     },
     "zz4l-atgc_32" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0038_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0038_fz_0p0015"
     },
     "zz4l-atgc_33" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-0p0038_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0038_fz_m0p003"
     },
     "zz4l-atgc_34" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0019_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0019_fz_m0p0015"
     },
     "zz4l-atgc_35" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0019_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0019_fz_m0p003"
     },
     "zz4l-atgc_36" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0038_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0038_fz_0"
     },
     "zz4l-atgc_37" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0038_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0038_fz_0p0015"
     },
     "zz4l-atgc_38" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0038_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v1/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0038_fz_0p003"
     },
     "zz4l-atgc_39" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0038_fz-m0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0038_fz_m0p0015"
     },
     "zz4l-atgc_40" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0038_fz-m0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0038_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0038_fz_m0p003"
     },
     "zz4l-atgc_41" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0019_fz-0"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0019_fz_0"
     },
     "zz4l-atgc_42" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0019_fz-0p0015"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0019_fz_0p0015"
     },
     "zz4l-atgc_43" : {
-        "file_path" : "/store/user/uhussain/UWVVNtuples16_08Aug2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
-        "plot_group" : "f5_fg-m0p0019_fz-0p003"
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-m0p0019_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_m0p0019_fz_0p003"
+    },
+    "zz4l-atgc_44" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-0_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0019_fz_0"
+    },
+    "zz4l-atgc_45" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f4_fg-0p0019_fz-m0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f4_fg_0p0019_fz_m0p003"
+    },
+    "zz4l-atgc_46" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-0p003_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0038_fz_0p003"
+    },
+    "zz4l-atgc_47" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0p0038_fz-m0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0p0038_fz_m0p0015"
+    },
+    "zz4l-atgc_48" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen16_02Sep2019/ZZTo4L_aTGC-f5_fg-0_fz-0p0015_13TeV-sherpa/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3-v2/*/*/*.root",
+        "plot_group" : "f5_fg_0_fz_0p0015"
     },
     "data_DoubleEG_Run2016B-17Jul2018_ver2-v1" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples16_07Aug2019/DoubleEG/Run2016B-17Jul2018_ver2-v1/*/*/*.root",

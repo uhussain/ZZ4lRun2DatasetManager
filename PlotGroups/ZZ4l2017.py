@@ -7,6 +7,28 @@ info = {
             "zz4l-powheg"
         ]
     },
+    "qqZZ_amcnlo":{
+        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*} (NLO)",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-amcatnlo"
+        ]
+    },
+    "zz_powheg_mcfm" : {
+        "Name" : "q#bar{q} #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-lightblue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "zz4l-powheg",
+            "ggZZ4e",
+            "ggZZ4m",
+            "ggZZ4t",
+            "ggZZ2e2mu",
+            "ggZZ2e2tau",
+            "ggZZ2mu2tau"
+        ]
+    },
     "zzjj4l_ewk" : {
         "Name" : "ZZ + 2 jets EWK",
         "Style" : "fill-darkblue",
@@ -40,6 +62,17 @@ info = {
             "ggZZ2e2mu",
             "ggZZ2e2tau",
             "ggZZ2mu2tau"
+        ]
+    },
+    "GGZZ" : {
+        "Name" : "gg #rightarrow ZZ,Z#gamma^{*}",
+        "Style" : "fill-blue",
+        "add_perc_error" : 0.0,
+        "Members" : [
+            "GGZZ4e",
+            "GGZZ4m",
+            "GGZZ4t",
+            "GGZZ2e2mu"
         ]
     },
     "dy-jets" : {

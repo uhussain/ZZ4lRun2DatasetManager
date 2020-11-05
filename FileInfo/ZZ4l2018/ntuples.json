@@ -1,11 +1,27 @@
 {
     "zz4l-amcatnlo" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/ZZTo4L_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
-        "plot_group" : "qqZZ-amcnlo"
+        "plot_group" : "qqZZ_amcnlo"
     },
     "zz4l-powheg" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15_ext2-v2/*/*/*.root",
         "plot_group" : "qqZZ-powheg"
+    },
+    "GGZZ4e" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_24Oct2020/GluGluToHiggs0PMcontinToZZTo4e_M125_GaSM_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4m" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_24Oct2020/GluGluToHiggs0PMcontinToZZTo4mu_M125_GaSM_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ4t" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/GluGluToContinToZZTo4tau_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
+        "plot_group" : "GGZZ"
+    },
+    "GGZZ2e2mu" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_24Oct2020/GluGluToHiggs0PMcontinToZZTo2e2mu_M125_GaSM_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
+        "plot_group" : "GGZZ"
     },
     "ggZZ4e" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/GluGluToContinToZZTo4e_13TeV_MCFM701_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
@@ -29,27 +45,27 @@
     },
     "ttH_HToZZ_4L" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/ttH_HToZZ_4LFilter_M125_13TeV_powheg2_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "WminusHToZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/WminusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "WplusHToZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/WplusH_HToZZTo4L_M125_13TeV_powheg2-minlo-HWJ_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "ZHToZZ_4L" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/ZH_HToZZ_4LFilter_M125_13TeV_powheg2-minlo-HZJ_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "ggHZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/GluGluHToZZTo4L_M125_13TeV_powheg2_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "vbfHZZ" : {
         "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_02Sep2019/VBF_HToZZTo4L_M125_13TeV_powheg2_JHUGenV7011_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2/*/*/*.root",
-        "plot_group" : "HZZ-signal"
+        "plot_group" : "HZZ_signal"
     },
     "data_EGamma_Run2018A-17Sep2018-v2" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples18_16Aug2019/EGamma/Run2018A-17Sep2018-v2/*/*/*.root",
@@ -186,5 +202,73 @@
     "ZZJJTo4mu-EWK-phantom" : {
         "file_path" : "/store/user/uhussain/UWVVNtuples18_16Aug2019/VBFToHiggs0PMContinToZZTo4muJJ_M125_GaSM_13TeV_phantom_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/*/*/*.root",
         "plot_group" : "zzjj4l-ewk"
+    },
+    "zz4l-atgc_1" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0_f4g_0_MiniAOD-miniAOD_submit/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0_f4g_0"
+    },
+    "zz4l-atgc_2" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0_f4g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0_f4g_0p00200"
+    },
+    "zz4l-atgc_3" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0_f4g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0_f4g_m0p00200"
+    },
+    "zz4l-atgc_4" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0p00200_f4g_0/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0p00200_f4g_0"
+    },
+    "zz4l-atgc_5" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0p00200_f4g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0p00200_f4g_0p00200"
+    },
+    "zz4l-atgc_6" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_0p00200_f4g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_0p00200_f4g_m0p00200"
+    },
+    "zz4l-atgc_7" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_m0p00200_f4g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_m0p00200_f4g_0p00200"
+    },
+    "zz4l-atgc_8" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_aTGC_f4Z_m0p00200_f4g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f4Z_m0p00200_f4g_m0p00200"
+    },
+    "zz4l-atgc_9" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_f5Z_0_f5g_0/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0_f5g_0"
+    },
+    "zz4l-atgc_10" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_f5Z_0_f5g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0_f5g_0p00200"
+    },
+    "zz4l-atgc_11" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_f5Z_0_f5g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0_f5g_m0p00200"
+    },
+    "zz4l-atgc_12" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_28Oct2019/ZZ_f5Z_0p00200_f5g_0/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0p00200_f5g_0"
+    },
+    "zz4l-atgc_13" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_29Oct2019/ZZ_f5Z_0p00200_f5g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0p00200_f5g_0p00200"
+    },
+    "zz4l-atgc_14" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_29Oct2019/ZZ_f5Z_0p00200_f5g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_0p00200_f5g_m0p00200"
+    },
+    "zz4l-atgc_15" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_29Oct2019/ZZ_f5Z_m0p00200_f5g_0/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_m0p00200_f5g_0"
+    },
+    "zz4l-atgc_16" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_29Oct2019/ZZ_f5Z_m0p00200_f5g_0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_m0p00200_f5g_0p00200"
+    },
+    "zz4l-atgc_17" : {
+        "file_path" : "/store/user/uhussain/UWVVNtuplesWGen18_29Oct2019/ZZ_f5Z_m0p00200_f5g_m0p00200/privateATGC/*/*/*.root",
+        "plot_group" : "f5Z_m0p00200_f5g_m0p00200"
     }
 }
