@@ -75,7 +75,10 @@ def getHistBinInfo(manager_path, selection, hist_name):
                 % (hist_name, hist_file))
     hist_info = all_hist_info[hist_name]["Initialize"]
     if "TH1" in hist_info["type"]:
-        args = ['nbins', 'xmin', 'xmax']
+        if len(hist_info)==2:
+            args=['nbins']
+        else:
+            args = ['nbins', 'xmin', 'xmax']
     elif "TH2" in hist_info["type"]:
         args = ['nbinsx', 'xmin', 'xmax', 'nbinsy', 'ymin', 'ymax']
     else:

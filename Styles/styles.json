@@ -335,6 +335,13 @@
         "SetLineWidth": 2,
         "SetMarkerSize" : 0
     },
+    "nofill-black-solid" : {
+        "SetFillColor": 0,
+        "SetLineColor": "ROOT.kBlack",
+        "SetLineStyle": 1,
+        "SetLineWidth": 2,
+        "SetMarkerSize" : 0
+    },
     "data" : {
         "SetMarkerColor": "ROOT.kBlack",
         "SetMarkerStyle" : 20,
