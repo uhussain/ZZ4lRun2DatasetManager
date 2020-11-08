@@ -254,6 +254,7 @@
     "ZZJJTo4L-EWK" : { 
         "cross_section" : 0.0004404,
         "Source of cross section" : "MCM",
+        "kfactor" : 1.21,
         "DAS Name" : "ZZJJTo4L_EWK_13TeV-madgraph-pythia8"
     },
     "ZZJJTo4e-EWK-phantom" : { 
