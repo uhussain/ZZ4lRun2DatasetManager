@@ -39,13 +39,39 @@
    "LepPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 400,
+            "nbins": 10,
             "xmin": 0,
-            "xmax": 2000
+            "xmax": 150
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
-            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPtold": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 150
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "LepPtTMP": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 10,
+            "xmin": 0,
+            "xmax": 150
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Lepton p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 15 GeV",
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
@@ -123,12 +149,32 @@
             "GetYaxis().SetTitleOffset": 1.2  
         }
     },
+   "ZPtold": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 8
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Z p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
    "ZPt": {  
         "Initialize": {  
             "type": "TH1D",
-            "nbins": 120,
-            "xmin": 0,
-            "xmax": 600
+            "nbins": 8
+        },
+        "Attributes": {  
+            "GetXaxis().SetTitle": "Z p_{T} [GeV]",  
+            "GetYaxis().SetTitle": "Events / 5 GeV",
+            "GetYaxis().SetTitleOffset": 1.2  
+        }
+    },
+   "ZPtTMP": {  
+        "Initialize": {  
+            "type": "TH1D",
+            "nbins": 8
         },
         "Attributes": {  
             "GetXaxis().SetTitle": "Z p_{T} [GeV]",  
